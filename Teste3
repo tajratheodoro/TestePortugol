@@ -1,0 +1,32 @@
+PT-BR
+Teste de CASO e CASO CONTRARIO
+
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro valor
+
+		escreva("Digite um valor qualquer: ")
+		leia(valor)
+
+		escolha (valor)
+		{
+			caso 1:
+			escreva("Bom dia!")
+			pare
+
+			caso 2:
+			escreva("Boa tarde!")
+			pare
+
+			caso 3:
+			escreva("Boa noite!")
+			pare
+
+			caso contrario:
+			escreva("Número inválido.")
+		}
+	}
+}
