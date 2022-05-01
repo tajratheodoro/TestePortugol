@@ -1,0 +1,31 @@
+PT-BR
+Teste de Voto
+
+programa
+{
+	
+	funcao inicio()
+	{
+		//Escreva	 um	 programa	 para	 ler	 o	 ano	 de	 nascimento	 de	 uma	 pessoa	 e	
+		//escrever	 uma	 mensagem	 que	 diga	 se	 ela	 poderá	 ou	 não	 votar	 este	 ano	
+		//(não	é	necessário	considerar	o	mês	em	que	ela	nasceu)
+
+		inteiro anoP, anoA, idade
+
+		escreva("Em qual ano estamos atualmente? ")
+		leia(anoA)
+		escreva("Qual o ano de nascimento de uma pessoa qualquer? ")
+		leia(anoP)
+		idade = anoA - anoP
+		escreva("Sua idade é de ", idade, " anos." )
+
+		se(idade < 16)
+		{
+			escreva("\nDe acordo com a idade dessa pessoa, ela não poderá votar esse ano.")
+		}
+		senao se(idade >= 16)
+		{
+			escreva("\nDe acordo com a idade dessa pessoa, ela podéra votar esse ano.")
+		}
+	}
+}
