@@ -1,0 +1,26 @@
+PT-BR
+Teste de SE e SENAO SE
+
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro clima
+
+		escreva("Quero sair de casa hoje, e dependendo do clima eu decido entre shopping e praia.")
+		escreva("\nAs opções de clima são: chuvoso(1) e ensolarado(2)")
+		escreva("\nQual foi o clima indicado no aplicativo? ")
+		leia(clima)		
+		
+		se(clima == 1)
+		{
+			escreva("O clima de hoje vai ser chuvoso. Melhor ir para o shopping.")
+		}
+		senao se(clima == 2)
+		{
+			escreva("O clima vai ser ensolarado. Ir a praia seria uma boa.")
+		}
+		
+	}
+}
